@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Homepage</title>
+    <style>
+        .top{display:flex; flex-wrap: wrap;}
+        .card{padding-left:20px;padding-right:20px;}
+        .first{padding-right:10px; padding-top:10px;}
+        .second{padding-top:10px;}
+        .arrow{padding-top:10px;}
+        .white{padding-left:100px;}
+        .middle{display:grid; grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr; grid-template-rows:1fr 2fr; font-size:22px;}
+        .over{grid-column:span 7;}
+        .button{align-items: right; border-radius: 50%;}
+        .end{font-size:10px; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; grid-template-rows:1fr 3fr;}
+        .text{font-size:20px;}
+        .heading{grid-column: span 4; display:flex;}
+        .info{color:black;}
+        .click{border-radius: 10px; margin:10px; width: min-content; height: fit-content;}
+        .logo{margin-right: 20px;}
+        .heading{font-size: 30px; color:black;}
+        .whiteone{padding-left:700px;}
+        .rakhi{padding-right: 10px;}
+        body{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+        color:grey;}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top"> 
+            <div class="logo"> <img src="./images/swiggy-logo.png.png"> </div>
+            <div class="first"> <b> <u> Other </u></b></div>
+            <div class="second"> Delhi, India </div>
+            <div class="arrow"> <img src="./images/arrow.png.png"> </div>
+            <div class="white"> </div>
+            <div class="corporate card"> <img src="./images/swiggycorporate.png.png"> Swiggy Corporate </div>
+            <div class="search card"> <img src="./images/search.png.png"> Search </div>
+            <div class="offers card"> <img src="./images/offers.png.png"> Offers </div>
+            <div class="help card"> <img src="./images/help.png.png"> Help </div>
+            <div class="signin card"> <img src="./images/signin.png.png"> Sign in </div>
+            <div class="cart card"> <img src="./images/cart.png.png"> Cart </div>
+        </div>
+    </header>
+    <div class="middle"> 
+        <div class="over"> 
+            <h3 class="heading"> What's on your mind? </h3>
+            <button> ← </button>
+            <button> → </button>
+        </div>
+        <div class="rakhi">
+            <img src="./images/rakhi-special.png.png"> 
+            <figcaption> Rakshabandhan Specials </figcaption>
+        </div>
+        <div class="pureveg">
+            <img src="./images/pure-veg.png.png"> 
+            <figcaption> Pure-veg Delights </figcaption> 
+        </div>
+        <div class="north">
+            <img src="./images/north-indian.png.png"> 
+            <figcaption> North Indian </figcaption>
+        </div>
+        <div class="pizza">
+            <img src="./images/pizza.png.png"> 
+            <figcaption> Pizzas </figcaption>
+        </div>
+        <div class="burger">
+            <img src="./images/burger.png.png"> 
+            <figcaption> Burgers </figcaption>
+        </div>
+        <div class="rolls">
+            <img src="./images/rolls.png.png"> 
+            <figcaption> Rolls </figcaption>
+        </div>
+        <div class="chinese">
+            <img src="./images/chinese.png.png"> 
+            <figcaption> Chinese </figcaption>
+        </div>
+    </div>
+    <div class="end">
+        <div class="heading">
+            <h3 class="heading"> Top restaurant chains in Delhi </h3>
+            <div class="whiteone"> </div>
+            <button> ← </button>
+            <button> → </button>
+        </div>
+        <div class="chinesewok click">
+            <img src="./images/chinese-wok.png.png">
+            <span class="info"> <b class="text"> Chinese Wok </b> <br>
+            4.3 · <b> 30-35 mins </b> </span> <br>
+            Chinese, Asian, Tibetan, Desserts <br>
+            Rohini <br> 
+        </div>
+        <div class="subway click">
+            <img src="./images/subway.png.png">
+            <span class="info"> <b class="text"> Subway </b> <br>
+            4.3 · <b> 25-30 mins </b> </span> <br>
+            Salads, Snacks, Desserts, Beverages <br>
+            Rohini M2K <br> 
+        </div>
+        <div class="lapinozpizza click">
+            <img src="./images/la-pinoz.png.png">
+            <span class="info"> <b class="text"> La Pino'z Pizza </b> <br>
+            4.3 · <b> 30-35 mins </b> <br> </span>
+            Pizzas, Pastas, Italian, Desserts <br>
+            New Friends Colony <br> 
+        </div>
+        <div class="pizzahut click">
+            <img src="./images/pizza-hut.png.png">
+            <span class="info"> <b class="text"> Pizza Hut </b> <br>
+            4.1 · <b> 25-30 mins </b> <br> </span>
+            Pizzas <br>
+            Rohini <br> 
+        </div>
+    </div>
+</body>
+</html>
